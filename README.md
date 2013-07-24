@@ -1,6 +1,6 @@
-# Leaflet::Geosearch::Rails
+# Leaflet::GeoSearch::Rails
 
-TODO: Write a gem description
+Integrates the [Leaflet GeoSearch] plugin with Rails asset pipeline
 
 ## Installation
 
@@ -18,7 +18,17 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add the following to your `app/assets/javascripts/application.js`:
+
+    //= require leaflet.geosearch
+    //= require leaflet.geosearch.provider.openstreetmap
+    //= require leaflet.geosearch.provider.xyz
+    
+Add the following to your `app/assets/stylesheets/application.css`:    
+    
+    *= require leaflet.geosearch
+    
+Examples can be found at [smeijer]
 
 ## Contributing
 
@@ -27,3 +37,12 @@ TODO: Write usage instructions here
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## License
+MIT License, full text of license see [here][License]
+
+*Free Software, Fuck Yeah!*
+
+[License]: https://github.com/kendrikat/leaflet-geosearch-rails/blob/master/LICENSE.txt "LICENSE"
+[Leaflet GeoSearch]: https://github.com/smeijer/L.GeoSearch
+[smeijer]: https://github.com/smeijer/L.GeoSearch
