@@ -3,7 +3,8 @@ require "leaflet-geosearch-rails/version"
 module Leaflet
   module Geosearch
     module Rails
-      # Your code goes here...
+      class Engine < ::Rails::Engine
+      end
     end
   end
 end

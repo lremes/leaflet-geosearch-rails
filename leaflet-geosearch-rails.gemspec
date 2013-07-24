@@ -8,9 +8,10 @@ Gem::Specification.new do |gem|
   gem.version       = Leaflet::Geosearch::Rails::VERSION
   gem.authors       = ["Klaas Endrikat"]
   gem.email         = ["klaas.endrikat@googlemail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.description   = %q{Integrates the Leaflet GeoSearch plugin with Rails asset pipeline}
+  gem.summary       = %q{Leaflet GeoSearch plugin for Rails}
+  gem.license       = 'MIT'
+  gem.homepage      = "https://github.com/kendrikat/leaflet-geosearch-rails"
 
   gem.files         = `git ls-files`.split($/)
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
